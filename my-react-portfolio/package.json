@@ -4,6 +4,11 @@
   "private": true,
   "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.1",
     "npm": "^6.4.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
