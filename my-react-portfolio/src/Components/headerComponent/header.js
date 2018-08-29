@@ -4,10 +4,10 @@ import React, { Component } from 'react';
 //Imports JUST the link for use
 // In React, you do not need anchor tags because they are single page applications
 // Use <Link /> instead of <a> 
-import {
-    Link
+// import {
+//     Link
     
-  } from 'react-router-dom';
+//   } from 'react-router-dom';
 
 // components
 // have to rename component in here and at export - must start with a capital
@@ -15,21 +15,21 @@ class Header extends Component {
   render() {
     return (
      <header>
-        <div className="logo">
-        LOGO
-        </div>
+         <h1 class="banner">Alexander Jivov</h1><span></span><h2>- Full Stack Developer -</h2>
 
         <nav>
             <ul>
                 <li className="first">
-                <Link to="/">Home</Link>
+                <p>Home</p>
                 </li>
                 <li>
-                    <Link to="/Portfolio">Products</Link>
+                    <p>Resume</p>
+                </li>
+                <li>
+                    <p>Portfolio</p>
                 </li>
                 <li className ="last">
-            
-                <Link to="/Contact">Contact</Link>
+                <p>Contact</p>
                 </li>
 
             </ul>
