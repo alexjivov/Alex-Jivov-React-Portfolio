@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 
+// REACT ROUTER - Allows navigation of different webpages - npm react-router-dom
+import {
+  BrowserRouter as Router,
+  Route, 
+  Link
+  
+} from 'react-router-dom';
 
 
 //import minified CSS
@@ -10,11 +17,6 @@ import './Assets/css/default.min.css';
 /////////////////
 
 import {Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
-// import header component
-// import Header from './Components/headerComponent/header';
-// import Homepage from './Components/pages/homepage';
-// import Biobox from './Components/boxComponents/biobox';
-// import OngoingProjects from './Components/boxComponents/ongoingprojects';
 
 
 class App extends Component {
@@ -22,21 +24,21 @@ class App extends Component {
     return (
       <div className="App">
        <div style={{height: '300px', position: 'relative'}}>
-    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
+    <Layout style={{background:  'url("./src/Assets/Img/Portfolio copy 2.png") center / cover'}}>
         <Header transparent title="Title" style={{color: 'white'}}>
             <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
+                <a href="/">Link</a>
             </Navigation>
         </Drawer>
         <Content />

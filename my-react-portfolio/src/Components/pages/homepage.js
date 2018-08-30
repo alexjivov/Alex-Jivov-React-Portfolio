@@ -7,8 +7,8 @@ class Homepage extends Component {
   render() {
     return (
         // using bootstrap default container name
-        <div className="container-fluid">
-             <h1 class="banner">- Alexander Jivov -</h1><span></span><h2>- Full Stack Developer -</h2>
+        <div>
+             <h1>- Alexander Jivov -</h1><span></span><h2>- Full Stack Developer -</h2>
         </div>
     );
   }
