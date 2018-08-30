@@ -15,12 +15,11 @@ class Header extends Component {
   render() {
     return (
      <header>
-         <h1 class="banner">Alexander Jivov</h1><span></span><h2>- Full Stack Developer -</h2>
 
         <nav>
             <ul>
                 <li className="first">
-                <p>Home</p>
+                <p>- Home</p>
                 </li>
                 <li>
                     <p>Resume</p>
@@ -29,7 +28,7 @@ class Header extends Component {
                     <p>Portfolio</p>
                 </li>
                 <li className ="last">
-                <p>Contact</p>
+                <p>Contact - </p>
                 </li>
 
             </ul>

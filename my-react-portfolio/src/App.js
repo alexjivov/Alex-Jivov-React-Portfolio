@@ -13,6 +13,7 @@ import './Assets/css/default.min.css';
 import Header from './Components/headerComponent/header';
 import Homepage from './Components/pages/homepage';
 import Biobox from './Components/boxComponents/biobox';
+import OngoingProjects from './Components/boxComponents/ongoingprojects';
 
 
 class App extends Component {
@@ -23,6 +24,7 @@ class App extends Component {
 
         <Homepage />
         <Biobox />
+        <OngoingProjects />
       </div>
     );
   }
