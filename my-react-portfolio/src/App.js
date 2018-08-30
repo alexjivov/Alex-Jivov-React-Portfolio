@@ -13,9 +13,7 @@ import './Assets/css/default.min.css';
 
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './Components/main';
-import Contact from './Components/pages/contact';
-import Portfolio from './Components/pages/portfolio';
-import Homepage from './Components/pages/homepage';
+
 
 class App extends Component {
   render() {

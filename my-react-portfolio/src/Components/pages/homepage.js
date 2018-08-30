@@ -23,21 +23,20 @@ class Homepage extends Component {
 
                     <div className="social-links">
                     {/* Linkedin Icon*/}
-                    <a href="http://google.ca" rel="noopener noreferrer" target="_blank"></a>
+                    <a href="https://www.linkedin.com/in/alexander-jivov-a2959682/" rel="noopener noreferrer" target="_blank"></a>
                         <i className="fa fa-linkedin-square"  aria-hidden="true" />
                     {/* Github Icon*/}
-                    <a href="http://google.ca" rel="noopener noreferrer" target="_blank"></a>
+                    <a href="https://github.com/alexjivov" rel="noopener noreferrer" target="_blank"></a>
                         <i className="fa fa-github-square"  aria-hidden="true" />
-                    {/* InstagramIcon*/}
-                    <a href="http://google.ca" rel="noopener noreferrer" target="_blank"></a>
+                    {/* Instagram Icon*/}
+                    <a href="https://www.instagram.com/bigbelly6ix/?hl=en" rel="noopener noreferrer" target="_blank"></a>
                         <i className="fa fa-instagram"  aria-hidden="true" />
-                    {/* InstagramIcon*/}
-                    <a href="http://google.ca" rel="noopener noreferrer" target="_blank"></a>
-                        <i className="fa fa-instagram"  aria-hidden="true" />
+                    {/* Twitter Icon*/}
+                    <a href="https://twitter.com/alexanderjivov" rel="noopener noreferrer" target="_blank"></a>
+                        <i className="fa fa-twitter-square"  aria-hidden="true" />
                     
                     </div>
                     
-                   
                     </div>
                     </Cell>
                 </Grid>
