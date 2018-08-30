@@ -4,7 +4,7 @@ import {Switch, Route} from 'react-router-dom';
 import Homepage from './pages/homepage';
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
-import Resume from './pages/homepage';
+import Resume from './pages/resume';
 import AboutMe from './pages/aboutme';
 
 const Main = () => (

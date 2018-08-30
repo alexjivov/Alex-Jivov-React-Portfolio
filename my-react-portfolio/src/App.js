@@ -23,26 +23,28 @@ class App extends Component {
       <div className="App">
         <div style={{ height: '300px', position: 'relative' }}>
           <Layout fixedHeader>
-            <Header title={<span><span style={{ color: '#ddd' }}> </span><strong></strong></span>}>
+            <Header className ="header-color" title={<span><span style={{ color: '#ddd' }}> </span><strong></strong></span>}>
               <Navigation>
-                <Link href="/">About Me</Link>
-                <Link href="/">Resume</Link>
-                <Link href="/">Portfolio</Link>
-                <Link href="/">Contact</Link>
+                <Link to="/aboutme">- About Me</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/contact">Contact -</Link>
               </Navigation>
             </Header>
             <Drawer title="Title">
               <Navigation>
-                <Link href="/">About Me</Link>
-                <Link href="/">Resume</Link>
-                <Link href="/">Portfolio</Link>
-                <Link href="/">Contact</Link>
+                <Link to="/aboutme">- About Me</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/contact">Contact -</Link>
               </Navigation>
             </Drawer>
+            <Main />
             <Content />
+        
           </Layout>
         </div>
-        <Main />
+       
       </div>
     );
   }

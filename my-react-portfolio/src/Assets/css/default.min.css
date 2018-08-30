@@ -1,1 +1,1 @@
-body{font-family:'Open Sans',sans-serif;font-size:18px;color:#010000;font-weight:400;font-style:normal}a{text-decoration:none;-webkit-transition:.4s ease-in-out;-moz-transform:.4s ease-in-out;transform:.4s ease-in-out;cursor:pointer}a a:hover{color:red}.container-fluid{line-height:24px}
+.header-color{background:#0f2027;background:-webkit-linear-gradient(to bottom,#2c5364,#203a43,#0f2027);background:linear-gradient(to bottom,#2c5364,#203a43,#0f2027)}
