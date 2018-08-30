@@ -15,7 +15,8 @@ class Homepage extends Component {
                         className="avatar-img"
                     />
                     <div className="banner-text">
-                        <h1>Full Stack Web Developer</h1>
+                        <h1> Alexander Jivov </h1>
+                        <h1>- Full Stack Web Developer -</h1>
 
                         <hr />
                     <p>HTML/CSS | React | React Native | Sass | NodeJS | GulpJS | Express </p>
@@ -30,7 +31,12 @@ class Homepage extends Component {
                     {/* InstagramIcon*/}
                     <a href="http://google.ca" rel="noopener noreferrer" target="_blank"></a>
                         <i className="fa fa-instagram"  aria-hidden="true" />
+                    {/* InstagramIcon*/}
+                    <a href="http://google.ca" rel="noopener noreferrer" target="_blank"></a>
+                        <i className="fa fa-instagram"  aria-hidden="true" />
+                    
                     </div>
+                    
                    
                     </div>
                     </Cell>
