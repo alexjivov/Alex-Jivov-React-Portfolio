@@ -3,15 +3,14 @@ import React, { Component } from 'react';
 
 // components
 // have to rename component in here and at export - must start with a capital
-class Homepage extends Component {
+class AboutMe extends Component {
   render() {
     return (
-        // using bootstrap default container name
-        <div>
-        <h1>Landing Page</h1>
-        </div>
+     <div>
+         <h1>AboutMe Page</h1>
+    </div>
     );
   }
 }
 
-export default Homepage;
+export default AboutMe;
