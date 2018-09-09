@@ -40,10 +40,15 @@ class Resume extends Component {
 
           </Cell>
           <Cell className="resume-right-col" col={8}>
+            <h1>Education</h1>
+            <Education 
+              startYear = {2012}
+              endYear = {2016}
+              schoolName = "George Washington University"
+              schoolDescription = "Bachelor of Arts in International Affairs, Concentrations in Security Policy and International Politics"                                        
+            />
 
-            <Education />
 
-            
           
           
           </Cell>
