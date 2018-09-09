@@ -35,6 +35,7 @@ class App extends Component {
             
           </Layout>
           <Main />
+
         </div>
      
       </div>
