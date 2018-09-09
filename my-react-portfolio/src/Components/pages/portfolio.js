@@ -9,20 +9,27 @@ class Portfolio extends Component {
     super(props);
     this.state = { activeTab: 0};
   }
-
-  // if this.state.activeTab === 0 {
-  //   return(
-  //     <div></div>
-  //   )
-  // }
-
+toggleCategories(){
+  if (this.state.activeTab === 0) {
+return (
+  <div> <Tabs activeTab ={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
+  <Tab>React</Tab>
+  <Tab>JavaScript</Tab>
+  <Tab>NodeJS</Tab>
+  <Tab>MongoDB</Tab>
+  </Tabs></div>
+)
+     
+  }
+}
+  
   render() {
     return (
      <div className="category-tabs">
       <Tabs activeTab ={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
       <Tab>React</Tab>
       <Tab>JavaScript</Tab>
-      <Tab>mySQL</Tab>
+      <Tab>NodeJS</Tab>
       <Tab>MongoDB</Tab>
       </Tabs>
       <section className="projects-grid">
