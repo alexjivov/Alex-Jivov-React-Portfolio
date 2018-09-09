@@ -7,16 +7,22 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 
 }
 
-.landing-grid {
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    position: fixed;
+.landing-grid{    // background: #0F2027;  /* fallback for old browsers */
+    // background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    // background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   background-image:url('../Img/4016x5000px Headshot copy.png');
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
     top: 0;
     left: 0; 
     width: 100%;
-    height: 100%;
+    height: 870px;
     text-align: center; 
+    padding: 0;
+    overflow: hidden;
+    margin: 0;
 
 }
 
@@ -26,27 +32,29 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 }
 
 .banner-text {
-    background-color: black;
-    opacity: 0.8;
-    width: 90%;
+    background-color: transparent;
+    position: absolute;
+    right:37%;
+    top: 145%;
+    width: 80%;
     margin: auto;
     border-radius: 10px; 
 
     h1 {
         font-size: 66px;
         font-weight:bold;
-        color: white;
+        color: #0F2027;;
        
     }
 
     hr {
-        border-top: 5px dotted white;
+        border-top: 5px dotted #0F2027;;
         width: 50%;
         margin: auto;
     }
 
     p {
-        color: white;
+        color: #0F2027;
         font-size: 20px;
         padding: 1em;
         
@@ -60,7 +68,7 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
     margin: auto; 
 
     i {
-     color: white;   
+     color: #0F2027;;   
      font-size: 5em; 
      padding: 8px; 
      margin-right: 40px; 

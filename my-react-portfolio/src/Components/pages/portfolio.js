@@ -12,12 +12,14 @@ class Portfolio extends Component {
 toggleCategories(){
   if (this.state.activeTab === 0) {
 return (
-  <div> <Tabs activeTab ={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
+  <div> 
+  <Tabs activeTab ={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId})} ripple>
   <Tab>React</Tab>
   <Tab>JavaScript</Tab>
   <Tab>NodeJS</Tab>
   <Tab>MongoDB</Tab>
-  </Tabs></div>
+  </Tabs>
+  </div>
 )
      
   }

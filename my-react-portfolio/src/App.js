@@ -13,6 +13,7 @@ import './Assets/css/default.min.css';
 
 import { Layout, Header, Navigation, Content } from 'react-mdl';
 import Main from './Components/main';
+import Contact from './Components/pages/contact';
 
 
 class App extends Component {
@@ -31,10 +32,10 @@ class App extends Component {
             </Header>
             
             <Content />
-            
+
           </Layout>
           <Main />
-
+    
         </div>
      
       </div>
