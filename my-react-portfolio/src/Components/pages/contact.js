@@ -44,7 +44,7 @@ class Contact extends Component {
                 <ListItem>
                   <ListItemContent style={{ fontSize: '30px', fontFamily: 'Anton' }}>
                     <i className="fa fa-skype" aria-hidden="true" />
-                    (647)-624-4362
+                    alexjivov@gwu.edu
                   </ListItemContent>
                 </ListItem>
               </List>

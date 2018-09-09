@@ -23,7 +23,7 @@ class App extends Component {
           <Layout fixedHeader>
             <Header className ="header-color" title={<Link style={{textDecoration:'none',color:'white',marginLeft:'-50px'}} to="/">Alexander Jivov</Link>} scroll>
               <Navigation>
-                <Link to="/">Home</Link>
+                <Link to="/">- Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/portfolio">Portfolio</Link>
                 <Link to="/contact">Contact -</Link>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 // Removed CSS because it is already included in App.js
 import { Grid, Cell } from 'react-mdl';
 
@@ -23,7 +24,7 @@ class Homepage extends Component {
 
                     <div className="social-links">
                     {/* Linkedin Icon*/}
-                    <a href="https://www.linkedin.com/in/alexander-jivov-a2959682/" rel="noopener noreferrer" target="_blank"></a>
+                    <Link to="https://www.linkedin.com/in/alexander-jivov-a2959682/" rel="noopener noreferrer" target="_blank"></Link>
                         <i className="fa fa-linkedin-square"  aria-hidden="true" />
                     {/* Github Icon*/}
                     <a href="https://github.com/alexjivov" rel="noopener noreferrer" target="_blank"></a>
