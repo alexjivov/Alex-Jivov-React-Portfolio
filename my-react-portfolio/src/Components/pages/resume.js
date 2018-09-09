@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 // Removed CSS because it is already included in App.js
 import {Grid, Cell} from 'react-mdl';
-// components
+
+
+/////////////////
+////COMPONENTS////
+/////////////////
+import Education from './education';
+
+
 // have to rename component in here and at export - must start with a capital
 class Resume extends Component {
   render() {
@@ -32,7 +39,14 @@ class Resume extends Component {
             <hr style={{borderTop:'3px solid #833fb2',width:'50%'}}/>
 
           </Cell>
-          <Cell className="resume-right-col" col={8}>Right Side</Cell>
+          <Cell className="resume-right-col" col={8}>
+
+            <Education />
+
+            
+          
+          
+          </Cell>
 
         </Grid>
     </div>
