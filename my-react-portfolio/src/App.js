@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div style={{ height: '300px', position: 'relative' }}>
+        <div style={{ height: '300px', position: 'relative'}}>
           <Layout fixedHeader>
             <Header className ="header-color" title={<Link style={{textDecoration:'none',color:'white',marginLeft:'-50px'}} to="/">Alexander Jivov</Link>} scroll>
               <Navigation>
