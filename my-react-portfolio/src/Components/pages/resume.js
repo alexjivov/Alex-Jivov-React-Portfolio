@@ -8,6 +8,7 @@ import { Grid, Cell } from 'react-mdl';
 /////////////////
 import Education from './education';
 import Experience from './experience';
+import Skills from './skills';
 
 
 // have to rename component in here and at export - must start with a capital
@@ -112,7 +113,9 @@ class Resume extends Component {
             />
              <hr style={{ borderTop: '3px solid #e22947' }} />
             <h2>Skills</h2>
+            <Skills 
 
+            />
 
 
           </Cell>
