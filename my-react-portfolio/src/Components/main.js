@@ -5,7 +5,7 @@ import Homepage from './pages/homepage';
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
-import AboutMe from './pages/aboutme';
+
 
 const Main = () => (
     <Switch>
@@ -13,7 +13,7 @@ const Main = () => (
          <Route  path="/Contact" component={Contact} />
           <Route path="/Portfolio" component={Portfolio} />
           <Route path="/Resume" component={Resume} />
-          <Route path="/AboutMe" component={AboutMe} />
+        
     </Switch>
 )
 
