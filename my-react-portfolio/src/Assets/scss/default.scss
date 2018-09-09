@@ -78,7 +78,9 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
     padding-top:2em;
 
 }
-
+.mdl-grid.contact-grid {
+    margin-top: 100px;
+}
 .contact-grid {
     text-align: center;
     justify-content: center;
@@ -86,7 +88,7 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
     height: 550px; 
     background: white; 
     color: black; 
-
+    margin-top: 20%;
     margin-bottom: 20px; 
 
     h2 {
