@@ -7,8 +7,14 @@ import {Tabs, Tab} from 'react-mdl';
 class Portfolio extends Component {
   constructor(props) {
     super(props);
-    this.state = { activeTab: 4};
+    this.state = { activeTab: 0};
   }
+
+  // if this.state.activeTab === 0 {
+  //   return(
+  //     <div></div>
+  //   )
+  // }
 
   render() {
     return (
@@ -18,8 +24,10 @@ class Portfolio extends Component {
       <Tab>JavaScript</Tab>
       <Tab>mySQL</Tab>
       <Tab>MongoDB</Tab>
-      
       </Tabs>
+      <section className="projects-grid">
+        {this.toggleCategories()}
+      </section>
     </div>
     );
   }
