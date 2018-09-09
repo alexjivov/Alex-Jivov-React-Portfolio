@@ -99,7 +99,7 @@ class Resume extends Component {
                 </ul>
               }
             />
-             <Experience
+            <Experience
               startYear={2013}
               endYear={2015}
               jobName="National Post - National Reporter"
@@ -111,11 +111,43 @@ class Resume extends Component {
                 </ul>
               }
             />
-             <hr style={{ borderTop: '3px solid #e22947' }} />
+            <hr style={{ borderTop: '3px solid #e22947' }} />
             <h2>Skills</h2>
-            <Skills 
-
+            <Skills
+              skill="React.js"
+              progress={95}
             />
+            <Skills
+              skill="JavaScript"
+              progress={90}
+            />
+
+            <Skills
+              skill="HTML"
+              progress={90}
+            />
+            <Skills
+              skill="CSS"
+              progress={95}
+            />
+            <Skills
+              skill="BootStrap"
+              progress={95}
+            />
+            <Skills
+              skill="Express"
+              progress={70}
+            />
+            <Skills
+              skill="MySQL"
+              progress={65}
+            />
+            <Skills
+              skill="MongoDB"
+              progress={55}
+            />
+
+
 
 
           </Cell>
