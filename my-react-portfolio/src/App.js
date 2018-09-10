@@ -23,11 +23,11 @@ class App extends Component {
         <div style={{ height: '300px', position: 'relative'}}>
           <Layout fixedHeader>
             <Header className ="header-color" title={<Link style={{textDecoration:'none',color:'white',marginLeft:'-50px'}} to="/">Alexander Jivov</Link>} scroll>
-              <Navigation>
-                <Link to="/">- Home</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/portfolio">Portfolio</Link>
-                <Link to="/contact">Contact -</Link>
+              <Navigation >
+                <Link  style={{fontSize:'18px'}} to="/">- Home</Link>
+                <Link  style={{fontSize:'18px'}} to="/resume">Resume</Link>
+                <Link  style={{fontSize:'18px'}} to="/portfolio">Portfolio</Link>
+                <Link  style={{fontSize:'18px'}} to="/contact">Contact -</Link>
               </Navigation>
             </Header>
             
