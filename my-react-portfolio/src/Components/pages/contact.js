@@ -11,13 +11,13 @@ class Contact extends Component {
         <Grid className="contact-grid">
           <Cell col={6}>
             <h2>Alexander Jivov</h2>
-            <img
-              src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
+            <img 
+              src="https://d1qb2nb5cznatu.cloudfront.net/users/7779666-large?1524409894"
               alt="avatar"
-              style={{ height: '250px' }}
+              style={{ height: '250px',border:'3px solid #0F2027',borderRadius:'10%' }}
 
             />
-            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}></p>
 
           </Cell>
           <Cell col={6}>
