@@ -28,7 +28,7 @@ class Resume extends Component {
             <h2 style={{ paddingTop: '2em' }}>Alexander Jivov</h2>
             <h4 style={{ color: 'grey' }}>Full-Stack Developer</h4>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Front-End Developer specializing in React.js and Responsive Design. Experience with full-stack front-end and back-end frameworks, with previous experience in sales, journalism, and public policy. </p>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
             <h5>Address</h5>
             <p>68 Yorkville Avenue</p>
@@ -115,6 +115,14 @@ class Resume extends Component {
             <h2>Skills</h2>
             <Skills
               skill="React.js"
+              progress={95}
+            />
+              <Skills
+              skill="Sass"
+              progress={95}
+            />
+              <Skills
+              skill="Gulp"
               progress={95}
             />
             <Skills
