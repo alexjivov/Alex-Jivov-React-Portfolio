@@ -12,7 +12,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Alexander Jivov</h2>
             <img 
-              src="https://d1qb2nb5cznatu.cloudfront.net/users/7779666-large?1524409894"
+              src="../../src/Assets/Img/4016x5000px Headshot copy.png"
               alt="avatar"
               style={{ height: '250px',border:'3px solid #0F2027',borderRadius:'10%' }}
 
