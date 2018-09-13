@@ -142,3 +142,25 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
     color: white; 
     padding: 2em; 
 }
+
+.download-resume-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 25px; 
+    padding: 5px;
+    background-color: #0F2027;
+    border: 5px solid  #2C5364; 
+    position: fixed; 
+    left: 10.6%;
+    top:38%;
+    font-family: 'Anton',sans-serif;
+}
+
+.download-resume-btn:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 25px; 
+    background-color: lightblue;
+ 
+    border: 5px solid  #2C5364; 
+}

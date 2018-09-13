@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // Removed CSS because it is already included in App.js
 import { Grid, Cell } from 'react-mdl';
+import {Link} from 'react-router-dom';
 
 
 /////////////////
@@ -25,6 +26,9 @@ class Resume extends Component {
                 style={{ height: '200px' }}
               />
             </div>
+            {/*Download Resume Link - Goes to PDF*/}
+            <Link className="download-resume-btn" to="/"> Download Resume </Link>
+
             <h2 style={{ paddingTop: '2em' }}>Alexander Jivov</h2>
             <h4 style={{ color: 'grey' }}>Full-Stack Developer</h4>
             <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
