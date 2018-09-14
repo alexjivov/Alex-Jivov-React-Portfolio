@@ -12,7 +12,7 @@ class Contact extends Component {
           <Cell col={6}>
             <h2>Alexander Jivov</h2>
             <img 
-              src="../../src/Assets/Img/4016x5000px Headshot copy.png"
+              src={require('/Users/alexjivov 1/Documents/Personal Coding/Personal-Projects/Alex-Jivov-React-Portfolio/my-react-portfolio/src/Assets/Img/4016x5000px Headshot copy 2.png')}
               alt="avatar"
               style={{ height: '250px',border:'3px solid #0F2027',borderRadius:'10%' }}
 
