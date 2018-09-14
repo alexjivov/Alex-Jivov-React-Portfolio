@@ -1,4 +1,4 @@
-/* Landing Page CSS */
+/* -------------------  Landing Page CSS -------------------  */
 .header-color {
     background: #0F2027;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
@@ -7,9 +7,7 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 }
 
 .landing-grid{    
-    // background: #0F2027;  /* fallback for old browsers */
-    // background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    // background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
    background-image:url('../Img/4016x5000px Headshot copy.png');
    -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -72,7 +70,7 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 
 }
 
-/* Portfolio Page CSS */
+/* -------------------  Portfolio Page CSS -------------------  */
 .cards-grid {
     display: flex;
     flex-wrap: wrap;
@@ -88,7 +86,7 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 
 
 
-/* Contact Page CSS */
+/* ------------------- Contact Page CSS -------------------  */
 
 .contact-body {
     margin: auto;
@@ -135,7 +133,7 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
     }
 }
 
-/* Resume Page CSS */
+/* ------------------- Resume Page CSS -------------------  */
 
 .resume-right-col {
     background:#27221F;
@@ -151,9 +149,9 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
     background-color: #0F2027;
     border: 5px solid  #2C5364; 
     position: fixed; 
-    left: 10.6%;
-    top:38%;
-    font-family: 'Anton',sans-serif;
+    left: 10%;
+    top:44%;
+  
 }
 
 .download-resume-btn:hover {

@@ -20,11 +20,12 @@ class Resume extends Component {
         <Grid style={{ paddingTop: '100px' }}>
           <Cell col={4}>
             <div style={{ textAlign: 'center' }}>
-              <img
-                src="https://www.shareicon.net/download/2017/05/09/885769_user_512x512.png"
-                alt="avatar"
-                style={{ height: '200px' }}
-              />
+            <img 
+              src={require('/Users/alexjivov 1/Documents/Personal Coding/Personal-Projects/Alex-Jivov-React-Portfolio/my-react-portfolio/src/Assets/Img/Freelancer Headshot.png')}
+              alt="avatar"
+              style={{ height: '250px',border:'3px solid #0F2027',borderRadius:'10%' }}
+
+            />
             </div>
             {/*Download Resume Link - Goes to PDF*/}
             <Link className="download-resume-btn" to="/"> Download Resume </Link>
