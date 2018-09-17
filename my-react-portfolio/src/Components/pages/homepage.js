@@ -30,17 +30,21 @@ class Homepage extends Component {
 
                     <div className="social-links">
                     {/* Linkedin Icon*/}
-                    <Link to="https://www.linkedin.com/in/alexander-jivov-a2959682/" rel="noopener noreferrer" target="_blank"></Link>
+                    <Link to="https://www.linkedin.com/in/alexander-jivov-a2959682/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-linkedin-square"  aria-hidden="true" />
+                        </Link>
                     {/* Github Icon*/}
-                    <a href="https://github.com/alexjivov" rel="noopener noreferrer" target="_blank"></a>
+                    <Link to="https://github.com/alexjivov" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square"  aria-hidden="true" />
+                        </Link>
                     {/* Instagram Icon*/}
-                    <a href="https://www.instagram.com/bigbelly6ix/?hl=en" rel="noopener noreferrer" target="_blank"></a>
+                    <Link to="https://www.instagram.com/bigbelly6ix/?hl=en" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-instagram"  aria-hidden="true" />
+                        </Link>
                     {/* Twitter Icon*/}
-                    <a href="https://twitter.com/alexanderjivov" rel="noopener noreferrer" target="_blank"></a>
+                    <Link to="https://twitter.com/alexanderjivov" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-twitter-square"  aria-hidden="true" />
+                        </Link>
                     
                     </div>
                     
