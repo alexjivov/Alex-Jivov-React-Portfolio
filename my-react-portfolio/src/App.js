@@ -24,10 +24,10 @@ class App extends Component {
           <Layout fixedHeader>
             <Header className ="header-color" title={<Link style={{textDecoration:'none',color:'white',marginLeft:'-50px',}} to="/">Alexander Jivov</Link>} scroll>
               <Navigation >
-                <Link  style={{fontSize:'18px', textDecoration:'none'}} to="/">- Home</Link>
-                <Link  style={{fontSize:'18px', textDecoration:'none'}} to="/resume">Resume</Link>
-                <Link  style={{fontSize:'18px', textDecoration:'none'}} to="/portfolio">Portfolio</Link>
-                <Link  style={{fontSize:'18px', textDecoration:'none'}} to="/contact">Contact -</Link>
+                <Link className="nav-links"  style={{fontSize:'18px', textDecoration:'none'}} to="/">Home</Link>
+                <Link className="nav-links" style={{fontSize:'18px', textDecoration:'none'}} to="/resume">Resume</Link>
+                <Link className="nav-links" style={{fontSize:'18px', textDecoration:'none'}} to="/portfolio">Portfolio</Link>
+                <Link className="nav-links" style={{fontSize:'18px', textDecoration:'none'}} to="/contact">Contact</Link>
               </Navigation>
             </Header>
             
