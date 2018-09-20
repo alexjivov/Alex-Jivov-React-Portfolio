@@ -173,9 +173,9 @@ Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, l
 
 {/*Project 1*/}
 <Card shadow={5} style ={{minWidth: '450'}}>
-  <CardTitle style={{color: '#fff',height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png center / cover'}}>React Project 1</CardTitle>
+  <CardTitle style={{color: '#fff',height:'176px',background:'url(https://occ-0-901-999.1.nflxso.net/art/b79f0/d9cf1ee6198424237372a00f209a254bb0bb79f0.jpg) center / cover'}}>Friend Finder</CardTitle>
   <CardText>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  Compatibility-based "FriendFinder" application -- basically a dating app. This is a full-stack site that takes in results from users' surveys, then compare their answers with those from other users.
   </CardText>
   <CardActions border>
     <Button colored>Github</Button>
@@ -190,9 +190,9 @@ Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, l
 
 {/*Project 2 */}
  <Card shadow={5} style ={{minWidth: '450'}}>
- <CardTitle style={{color: '#fff',height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png center / cover'}}>React Project 2</CardTitle>
+ <CardTitle style={{color: '#fff',height:'176px',background:'url(https://i.imgur.com/eQgQWTr.jpg) center / cover'}}>The Everything Node Store</CardTitle>
  <CardText>
- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+ App that takes in orders from customers and deplete stock from the store's inventory. This is a CLI App focusing on node, mysql and express.
  </CardText>
  <CardActions border>
    <Button colored>Github</Button>
@@ -207,9 +207,10 @@ Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, l
 {/*Project 3*/}
 <br />
 <Card shadow={5} style ={{minWidth: '450'}}>
-<CardTitle style={{color: '#fff',height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png center / cover'}}>React Project 3</CardTitle>
+<CardTitle style={{color: '#fff',height:'176px',background:'url(https://www.seriouseats.com/recipes/images/2015/07/20150728-homemade-whopper-food-lab-35-1500x1125.jpg) center / cover'}}>Eat Da Burger</CardTitle>
 <CardText>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+
+Burger inventory logger utilizing Handlebars, mySQL, Node, Express and a custom-made ORM. Utilized Node and mySQL to query data and Handlebars to generate relevant HTML. 
 </CardText>
 <CardActions border>
   <Button colored>Github</Button>
@@ -223,9 +224,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 {/*Project 4*/}
 <br />
 <Card shadow={5} style ={{minWidth: '450'}}>
-<CardTitle style={{color: '#fff',height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png center / cover'}}>React Project 4</CardTitle>
+<CardTitle style={{color: '#fff',height:'176px',background:'url(https://images.philips.com/is/image/PhilipsConsumer/AJ3232B_79-IMS-en_NZ?$jpglarge$&wid=1250) center / cover'}}>Time Square</CardTitle>
 <CardText>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+A full-stack corporate management site for both administrators and employees. Authentication for administrators to track employee task completion and billable hours, plus staff dashboards to track their project time and log their hours.
 </CardText>
 <CardActions border>
   <Button colored>Github</Button>
