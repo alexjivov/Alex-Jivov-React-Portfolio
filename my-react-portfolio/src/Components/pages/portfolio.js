@@ -254,7 +254,7 @@ A full-stack corporate management site for both administrators and employees. Au
 
 {/*Project 1*/}
 <Card shadow={5} style ={{minWidth: '450'}}>
-  <CardTitle style={{color: '#fff',height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png center / cover'}}>React Project 1</CardTitle>
+  <CardTitle style={{color: '#fff',height:'176px',background:'url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png center / cover'}}>The Hungry News Scraper</CardTitle>
   <CardText>
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   </CardText>
