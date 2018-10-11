@@ -17,6 +17,7 @@ class Homepage extends Component {
     }
     render() {
         return (
+        
             <div  style={{ width: '100%', margin: 'auto' }}>
                 <Grid  className="landing-grid">
                     <Cell col={12}>
@@ -30,21 +31,21 @@ class Homepage extends Component {
 
                     <div className="social-links">
                     {/* Linkedin Icon*/}
-                    <Link to="https://www.linkedin.com/in/alexander-jivov-a2959682/" rel="noopener noreferrer" target="_blank">
+                    <a href="https://www.linkedin.com/in/alexander-jivov-a2959682/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-linkedin-square"  aria-hidden="true" />
-                        </Link>
+                        </a>
                     {/* Github Icon*/}
-                    <Link to="https://github.com/alexjivov" rel="noopener noreferrer" target="_blank">
+                    <a href="https://github.com/alexjivov" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-github-square"  aria-hidden="true" />
-                        </Link>
+                        </a>
                     {/* Instagram Icon*/}
-                    <Link to="https://www.instagram.com/bigbelly6ix/?hl=en" rel="noopener noreferrer" target="_blank">
+                    <a href="https://www.instagram.com/bigbelly6ix/?hl=en" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-instagram"  aria-hidden="true" />
-                        </Link>
+                        </a>
                     {/* Twitter Icon*/}
-                    <Link to="https://twitter.com/alexanderjivov" rel="noopener noreferrer" target="_blank">
+                    <a href="https://twitter.com/alexanderjivov" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-twitter-square"  aria-hidden="true" />
-                        </Link>
+                        </a>
                     
                     </div>
                     
