@@ -33,13 +33,15 @@ class App extends Component {
            
             
             <Content />
-            <div className="headshot-img" />
+          
           
 
           </Layout>
           <Main />
+          <div className="headshot-img" />
     
         </div>
+        
      
       </div>
     );

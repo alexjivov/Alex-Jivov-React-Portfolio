@@ -9,13 +9,15 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 }
 
 .headshot-img {
-    background-image:url('../Img/Stylized\ Portfolio\ Headshot.png');
-    
+    background-image:url('../Img/Stylized\ Portfolio\ Drawing\ Updated.png');
+    background-size: 100%;
+    top: -285%;
     object-fit: cover; 
-    height: 1000px;
+    height: 850px;
     width: 80%;
     position: relative;
-    left: 30%;
+    left: 20%;
+    z-index: 1;
 }
 .landing-grid{    
    
@@ -35,6 +37,7 @@ background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
     padding: 0;
     overflow: hidden;
     margin: 0;
+    z-index: -1;
 
 }
 
@@ -42,7 +45,7 @@ background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
 .banner-text {
     background-color: transparent;
     position: relative;
-    right:15%;
+    right:10%;
     top: 45%;
     width: 80%;
     margin: 1%;
