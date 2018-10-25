@@ -8,6 +8,15 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 
 }
 
+.headshot-img {
+    background-image:url('../Img/Stylized\ Portfolio\ Headshot.png');
+    
+    object-fit: cover; 
+    height: 1000px;
+    width: 80%;
+    position: relative;
+    left: 30%;
+}
 .landing-grid{    
    
 //    background-image:url('../Img/4016x5000px Headshot copy.png');

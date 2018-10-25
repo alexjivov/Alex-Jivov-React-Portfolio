@@ -26,9 +26,9 @@ return (
 
   {/*Project 1*/}
   <Card shadow={5} style ={{minWidth: '450'}}>
-    <CardTitle style={{color: '#fff',height:'176px',background:'url(http://365.unsplash.com/assets/medium-372a217d5e05a28e08efc1cde0c0c9f5.jpg) center / cover'}}>Medium.com Clone</CardTitle>
+    <CardTitle style={{color: '#fff',height:'176px',background:'url(https://vignette.wikia.nocookie.net/project-pokemon/images/4/47/Placeholder.png/revision/latest?cb=20170330235552) center / cover'}}>React Drop Zone</CardTitle>
     <CardText>
-    A simple clone of the popular Medium.com website utilizing Reactjs, Redux, Nodejs, Cloudinary, MongoDB and Express.js. Handles secure user authentication through direct login and Google sign-in. 
+    Utilizes Tesseract.js to allow employees to upload pictures of receipts and dynamically register expenses based on picture analysis. Front-end built using React with a MongoDB enabled back-end. 
     </CardText>
     <CardActions border>
       <Button colored>Github</Button>

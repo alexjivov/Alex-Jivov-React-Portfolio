@@ -30,8 +30,11 @@ class App extends Component {
                 <Link className="nav-links" style={{fontSize:'18px', textDecoration:'none'}} to="/contact">Contact</Link>
               </Navigation>
             </Header>
+           
             
             <Content />
+            <div className="headshot-img" />
+          
 
           </Layout>
           <Main />
