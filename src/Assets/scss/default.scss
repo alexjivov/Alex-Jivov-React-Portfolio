@@ -8,27 +8,29 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 
 }
 
-.headshot-img {
-    background-image:url('../Img/Stylized\ Portfolio\ Drawing\ Updated.png');
-    background-size: 100%;
-    top: -285%;
-    object-fit: cover; 
-    height: 850px;
-    width: 80%;
-    position: relative;
-    left: 20%;
-    z-index: 1;
-}
+// .headshot-img {
+//     background-image:url('../Img/Stylized\ Portfolio\ Drawing\ Updated.png');
+//     background-size: 100%;
+//     top: -285%;
+//     object-fit: cover; 
+//     height: 850px;
+//     width: 80%;
+//     position: relative;
+//     left: 20%;
+//     background-repeat: no-repeat;
+//     z-index: 2;
+
+// }
 .landing-grid{    
    
-//    background-image:url('../Img/4016x5000px Headshot copy.png');
-//    -webkit-background-size: cover;
-//    -moz-background-size: cover;
-//    -o-background-size: cover;
-//    background-size: cover;
-background: #0F2027;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
+   background-image:url('../Img/4016x5000px Headshot copy.png');
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+// background: #0F2027;  /* fallback for old browsers */
+// background: -webkit-linear-gradient(to top, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+// background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
     top: 0;
     left: 0; 
     width: 100%;
@@ -54,18 +56,18 @@ background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
     h1 {
         font-size: 66px;
         font-weight:bold;
-        color: white;;
+        color: #0F2027;;
        
     }
 
     hr {
-        border-top: 5px dotted white;;
+        border-top: 5px dotted #0F2027;;
         width: 50%;
         margin: auto;
     }
 
     p {
-        color: white;
+        color: #0F2027;
         font-size: 20px;
         padding: 1em;
         
@@ -78,17 +80,20 @@ background: linear-gradient(to top, #2C5364, #203A43, #0F2027);
 }
 
 
+
 .social-links {
     display: flex;
     justify-content: space-between;
     width: 50%;
     margin: auto; 
+  
 
     i {
-     color: white;;   
+     color: #0F2027;   
      font-size: 5em; 
      padding: 8px; 
      margin-right: 40px; 
+     z-index: 9;
     }
 
     i:hover {
