@@ -44,10 +44,11 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
 }
 
 
+
 .banner-text {
     background-color: transparent;
     position: relative;
-    right:10%;
+    right:12%;
     top: 45%;
     width: 80%;
     margin: 1%;
@@ -116,6 +117,15 @@ background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10
    
 }
 
+.flex-track-bkg {
+    background-image:url('../Img/Screen\ Shot\ 2018-11-07\ at\ 6.52.23\ PM.png');
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+
+}
 
 
 /* ------------------- Contact Page CSS -------------------  */
