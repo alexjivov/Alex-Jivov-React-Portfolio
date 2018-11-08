@@ -28,7 +28,7 @@ return (
   <Card shadow={5} style ={{minWidth: '450'}}>
     <CardTitle className="flex-track-bkg" style={{color: '#fff',height:'176px'}}></CardTitle>
     <CardText>
-    <h5>FlexTrack</h5>
+    <h5>FlexTrack OCR</h5>
     Utilizes Tesseract.js to allow employees to upload pictures of receipts and dynamically register expenses based on picture analysis. Front-end built using React with a MongoDB enabled back-end. 
     </CardText>
     <CardActions border>
@@ -198,8 +198,9 @@ Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, l
 
 {/*Project 1*/}
 <Card shadow={5} style ={{minWidth: '450'}}>
-  <CardTitle style={{color: '#fff',height:'176px',background:'url(https://occ-0-901-999.1.nflxso.net/art/b79f0/d9cf1ee6198424237372a00f209a254bb0bb79f0.jpg) center / cover'}}>Friend Finder</CardTitle>
+  <CardTitle style={{color: '#fff',height:'176px',background:'url(https://occ-0-901-999.1.nflxso.net/art/b79f0/d9cf1ee6198424237372a00f209a254bb0bb79f0.jpg) center / cover'}}></CardTitle>
   <CardText>
+  <h5>NodeJS Friend Finder</h5>
   Compatibility-based "FriendFinder" application -- basically a dating app. This is a full-stack site that takes in results from users' surveys, then compare their answers with those from other users.
   </CardText>
   <CardActions border>
@@ -215,8 +216,9 @@ Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, l
 
 {/*Project 2 */}
  <Card shadow={5} style ={{minWidth: '450'}}>
- <CardTitle style={{color: '#fff',height:'176px',background:'url(https://i.imgur.com/eQgQWTr.jpg) center / cover'}}>The Everything Node Store</CardTitle>
+ <CardTitle style={{color: '#fff',height:'176px',background:'url(https://i.imgur.com/eQgQWTr.jpg) center / cover'}}></CardTitle>
  <CardText>
+ <h5>The Everything Node Store</h5>
  App that takes in orders from customers and deplete stock from the store's inventory. This is a CLI App focusing on node, mysql and express.
  </CardText>
  <CardActions border>
@@ -234,7 +236,7 @@ Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, l
 <Card shadow={5} style ={{minWidth: '450'}}>
 <CardTitle style={{color: '#fff',height:'176px',background:'url(https://www.seriouseats.com/recipes/images/2015/07/20150728-homemade-whopper-food-lab-35-1500x1125.jpg) center / cover'}}>Eat Da Burger</CardTitle>
 <CardText>
-
+<h5>Eat Da Burger</h5>
 Burger inventory logger utilizing Handlebars, mySQL, Node, Express and a custom-made ORM. Utilized Node and mySQL to query data and Handlebars to generate relevant HTML. 
 </CardText>
 <CardActions border>
@@ -249,8 +251,9 @@ Burger inventory logger utilizing Handlebars, mySQL, Node, Express and a custom-
 {/*Project 4*/}
 <br />
 <Card shadow={5} style ={{minWidth: '450'}}>
-<CardTitle style={{color: '#fff',height:'176px',background:'url(https://images.philips.com/is/image/PhilipsConsumer/AJ3232B_79-IMS-en_NZ?$jpglarge$&wid=1250) center / cover'}}>Time Square</CardTitle>
+<CardTitle style={{color: '#fff',height:'176px',background:'url(https://images.philips.com/is/image/PhilipsConsumer/AJ3232B_79-IMS-en_NZ?$jpglarge$&wid=1250) center / cover'}}></CardTitle>
 <CardText>
+<h5>Time Square</h5>
 A full-stack corporate management site for both administrators and employees. Authentication for administrators to track employee task completion and billable hours, plus staff dashboards to track their project time and log their hours.
 </CardText>
 <CardActions border>
