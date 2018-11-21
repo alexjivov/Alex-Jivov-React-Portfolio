@@ -9,6 +9,8 @@ class Portfolio extends Component {
     super(props);
     this.state = { activeTab: 0};
   }
+
+  
 toggleCategories(){
   if (this.state.activeTab === 0) {
 return (
@@ -32,8 +34,8 @@ return (
     Utilizes Tesseract.js to allow employees to upload pictures of receipts and dynamically register expenses based on picture analysis. Front-end built using React with a MongoDB enabled back-end. 
     </CardText>
     <CardActions border>
-      <Button colored>Github</Button>
-      <Button colored>Live Demo</Button>
+      <Button href="https://github.com/alexjivov/FlexTrack-OCR-Full-Stack-Platform" colored>Github</Button>
+      <Button href="https://desolate-shore-48838.herokuapp.com" colored>Live Demo</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
       <IconButton name="share" />
@@ -69,8 +71,8 @@ Utilized the create-react-app platform and pulled from a weather API to build a 
   </CardText>
 
   <CardActions border>
-    <Button colored>Github</Button>
-    <Button colored>Live Demo</Button>
+    <Button href="https://github.com/alexjivov/React-Weather-App" colored>Github</Button>
+    <Button href="https://alexjivov.github.io/React-Weather-App/"colored>Live Demo</Button>
   </CardActions>
   <CardMenu style={{color: '#fff'}}>
     <IconButton name="share" />
@@ -85,8 +87,8 @@ Utilized the create-react-app platform and pulled from a weather API to build a 
     Chat app built using only server side code in React. Users will be able to log in, choose their avatar of choice, engage in direct chats or create private chat rooms for group conversations. Chatkit API is being used to handle any back-end requirements.
     </CardText>
     <CardActions border>
-      <Button colored>Github</Button>
-      <Button colored>Live Demo</Button>
+      <Button href="https://github.com/alexjivov/React-Chat-App" colored>Github</Button>
+      <Button href="https://alexjivov.github.io/React-Chat-App/" colored>Live Demo</Button>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
       <IconButton name="share" />
@@ -118,8 +120,8 @@ Utilized the create-react-app platform and pulled from a weather API to build a 
   A dynamic quiz page built using vanilla JavaScript. Choose your answers and be given your right and wrong answers upon submission. 
   </CardText>
   <CardActions border>
-    <Button colored>Github</Button>
-    <Button colored>Live Demo</Button>
+    <Button href="https://github.com/alexjivov/TriviaGame" colored>Github</Button>
+    <Button href="https://alexjivov.github.io/TriviaGame/" colored>Live Demo</Button>
   </CardActions>
   <CardMenu style={{color: '#fff'}}>
     <IconButton name="share" />
@@ -136,8 +138,8 @@ Utilized the create-react-app platform and pulled from a weather API to build a 
  The Psychic Game A simple JavaScript game that allows you to guess the letter the computer chooses. Choose a letter from A - Z and test your psycic ability to see if you can read a computers mind!
  </CardText>
  <CardActions border>
-   <Button colored>Github</Button>
-   <Button colored>Live Demo</Button>
+   <Button href="https://github.com/alexjivov/Psychic-Game" colored>Github</Button>
+   <Button href="https://alexjivov.github.io/Psychic-Game/" colored>Live Demo</Button>
  </CardActions>
  <CardMenu style={{color: '#fff'}}>
    <IconButton name="share" />
@@ -156,8 +158,8 @@ There will be four crystals displayed as buttons on the page.
 The player wins the game if their total score matches the random number and the player loses the game if their total score goes above the random number.
 </CardText>
 <CardActions border>
-  <Button colored>Github</Button>
-  <Button colored>Live Demo</Button>
+  <Button href="https://github.com/alexjivov/unit-4-game" colored>Github</Button>
+  <Button href="https://alexjivov.github.io/unit-4-game/" colored>Live Demo</Button>
 </CardActions>
 <CardMenu style={{color: '#fff'}}>
   <IconButton name="share" />
@@ -173,8 +175,7 @@ The player wins the game if their total score matches the random number and the 
 Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, libraries, or frameworks were utizilied whatsoever.
 </CardText>
 <CardActions border>
-  <Button colored>Github</Button>
-  <Button colored>Live Demo</Button>
+  <Button href="https://github.com/alexjivov/JavaScript-30-Challenge" colored>Github</Button>
 </CardActions>
 <CardMenu style={{color: '#fff'}}>
   <IconButton name="share" />
@@ -234,7 +235,7 @@ Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, l
 {/*Project 3*/}
 <br />
 <Card shadow={5} style ={{minWidth: '450'}}>
-<CardTitle style={{color: '#fff',height:'176px',background:'url(https://www.seriouseats.com/recipes/images/2015/07/20150728-homemade-whopper-food-lab-35-1500x1125.jpg) center / cover'}}>Eat Da Burger</CardTitle>
+<CardTitle style={{color: '#fff',height:'176px',background:'url(https://www.seriouseats.com/recipes/images/2015/07/20150728-homemade-whopper-food-lab-35-1500x1125.jpg) center / cover'}}></CardTitle>
 <CardText>
 <h5>Eat Da Burger</h5>
 Burger inventory logger utilizing Handlebars, mySQL, Node, Express and a custom-made ORM. Utilized Node and mySQL to query data and Handlebars to generate relevant HTML. 
