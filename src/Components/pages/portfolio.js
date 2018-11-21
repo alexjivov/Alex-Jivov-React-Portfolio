@@ -48,12 +48,12 @@ return (
    <Card shadow={5} style ={{minWidth: '450'}}>
    <CardTitle style={{color: '#fff',height:'176px',background:'url(https://i.ytimg.com/vi/HZkN0LfC5dM/maxresdefault.jpg) center / cover'}}></CardTitle>
    <CardText>
-   <h5>React Crud Application</h5>
-   A frontend web app in React and a backend REST API server in Node. The frontend contains a home page and a posts manager, with the posts manager hidden behind secure user authentication.
+   <h5>React VR Street View</h5>
+   Virtual Reality App utilizing HTML, CSS, and ES6 - bootstrapped utilizing the react-360-CLI. Allows for a user utilizing a mobile phone or VR enabled headset to navigate an image dynamically, similarly to Google Street View
    </CardText>
    <CardActions border>
-     <Button colored>Github</Button>
-     <Button colored>Live Demo</Button>
+     <Button href="https://github.com/alexjivov/VR-Street-View-Mobile-App" colored>Github</Button>
+     <Button href="https://alexjivov.github.io/VR-Street-View-Mobile-App/" colored>Live Demo</Button>
    </CardActions>
    <CardMenu style={{color: '#fff'}}>
      <IconButton name="share" />
@@ -205,8 +205,8 @@ Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, l
   Compatibility-based "FriendFinder" application -- basically a dating app. This is a full-stack site that takes in results from users' surveys, then compare their answers with those from other users.
   </CardText>
   <CardActions border>
-    <Button colored>Github</Button>
-    <Button colored>Live Demo</Button>
+    <Button href="https://github.com/alexjivov/Node-Express-Friend-Finder" colored>Github</Button>
+    <Button href="/" colored>Live Demo</Button>
   </CardActions>
   <CardMenu style={{color: '#fff'}}>
     <IconButton name="share" />
@@ -223,8 +223,7 @@ Built 30 vanilla JavaScript projects in 30 days using tutorials. No compilers, l
  App that takes in orders from customers and deplete stock from the store's inventory. This is a CLI App focusing on node, mysql and express.
  </CardText>
  <CardActions border>
-   <Button colored>Github</Button>
-   <Button colored>Live Demo</Button>
+   <Button href="https://github.com/alexjivov/bamazon-CLI-App" colored>Github</Button>
  </CardActions>
  <CardMenu style={{color: '#fff'}}>
    <IconButton name="share" />
@@ -258,7 +257,7 @@ Burger inventory logger utilizing Handlebars, mySQL, Node, Express and a custom-
 A full-stack corporate management site for both administrators and employees. Authentication for administrators to track employee task completion and billable hours, plus staff dashboards to track their project time and log their hours.
 </CardText>
 <CardActions border>
-  <Button colored>Github</Button>
+  <Button href="https://github.com/ColeAmodeo/project2" colored>Github</Button>
   <Button colored>Live Demo</Button>
 </CardActions>
 <CardMenu style={{color: '#fff'}}>
