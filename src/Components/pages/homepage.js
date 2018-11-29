@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 // Removed CSS because it is already included in App.js
 import { Grid, Cell } from 'react-mdl';
 import AOS from 'aos';

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 // Removed CSS because it is already included in App.js
 import { Grid, Cell } from 'react-mdl';
-import {Link} from 'react-router-dom';
+
 
 
 /////////////////
